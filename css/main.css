@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBarContainer{
+    width: 100%;
+    margin-top: .6rem;
+}
+.carraynav{
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    width: 99%;
+    margin: auto;
+    height: 4rem;
+    background-color: lightseagreen;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 7rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    line-height: 4rem;
+    padding: 16px 10px;
+    transition: 300ms;
+    transition: ease-in-out;
+}
+
+nav ul li:hover{
+    background: black;
+    border-radius: 6px;
+}
+nav ul li{
+    padding: 0rem 3rem;
+}
+
+.heroContainer{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.socialWithdei{
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
+.socialMediacon{
+    line-height: 8rem;
+    /* margin-bottom: 2rem; */
+}
+
+.socialMediacon a{
+    padding: 0rem .8rem;
+}
+
+.worikinexpHeading{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.workingExpreienc{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.workingExperiencecont{
+    width: 90%;
+    margin: auto;
+}
+.workExpNumber{
+    width: 20%;
+}
+
+.workExpDel{
+    width: 30%;
+    text-align: center;
+}
+
+.workExpNumber p{
+    margin-left: 5rem;
+    line-height: 7rem;
+    margin-bottom: .6rem;
+}
+
+.workExpDel p{
+    line-height: 1.4rem;
+    margin-right: 15rem;
+}
+
+.workExpDel h2{
+    margin-right: 15rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1.1rem;
+}
+
+.skillsContainer{
+    width: 90%;
+    margin: auto;
+}
+
+.skillsContainer h1{
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: .9rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: .2rem;
+}
+
+.skillsBoxcont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.fontEnd{
+    width: 27%;
+    box-shadow: 0px 3px 3px 1px;
+    transition: 500ms;
+}
+.fontEnd:hover{
+    box-shadow: 2px 5px 18px 4px;
+}
+.fontEnd h2{
+    text-align: center;
+    padding: .9rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+.fontEnd ul{
+    padding-left: 3rem;
+    font-size: 1.2rem;
+}
+
+.fontLanguageNamelist{
+    padding-left: 2rem;
+    padding: 2rem;
+    margin-bottom: .6rem;
+}
+
+.backEnd{
+    width: 27%;
+    box-shadow: 0px 3px 3px 1px;
+    transition: 500ms;
+}
+.backEnd:hover{
+    box-shadow: 2px 5px 18px 4px;
+}
+.backEnd h2{
+    text-align: center;
+    padding: .9rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+.backEnd ul{
+    padding-left: 3rem;
+    font-size: 1.2rem;
+}
+
+.backLanguageList{
+    padding-left: 2rem;
+    padding: 2rem;
+    margin-bottom: .6rem;
+}
+
+.otherlanguage{
+    width: 27%;
+    box-shadow: 0px 3px 3px 1px;
+    padding-left: 2rem;
+    padding: 2rem;
+    margin-bottom: .6rem;
+    line-height: 1.5rem;
+    transition: 500ms;
+}
+.otherlanguage:hover{
+    box-shadow: 2px 5px 18px 4px;
+}
+.otherlanguage h2{
+    text-align: center;
+    padding: .9rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+.otherlanguage ul{
+    padding-left: 3rem;
+    font-size: 1.2rem;
+}
+
+.languageName{
+    margin-bottom: 2.5rem;
+}
+
+.otherWork{
+    margin-bottom: 1.1rem;
+}
+
+.educationContainer{
+    width: 60%;
+    margin: auto;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+table{
+    width: 100%;
+    margin-top: 1.6rem;
+    margin-bottom: 1.9rem;
+}
+
+.eductionTabile{
+    width: 50%;
+    margin: auto;
+}
+.eductionTabile h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.imageContainer{
+    width: 97%;
+    margin: auto;
+    height: 25rem;
+    background: url(../img/background\ img\ footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imageContainer img{
+    width: 25%;
+    padding: 1rem;
+    margin-left: 4.7rem;
+    transition: 300ms;
+}
+
+.imageContainer:hover{
+    filter: grayscale(100%);
+}
+.imagesection{
+    margin: 1.4rem 0rem;
+}
+footer{
+    width: 93%;
+    margin: auto;
+    background: lightgrey;
+    text-align: center;
+}
+
+.footerContainer{
+    margin: 1.2rem 0rem;
+}
+
+.footerContainer h1{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+.footerContainer a{
+    line-height: 1.8rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#formSection{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+legend{
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+
+.zxy{
+    font-size: 1.3rem;
+    padding: 6rem;
+    line-height: 3rem;   
+}
+
+.xzy{
+    font-size: 1.3rem;
+    padding: 5.8rem;
+    line-height: 3rem;
+    margin-right: 2.6rem;
+}
+
+#fristName, #lastName, #email{
+    font-size: 1rem;
+}
+.zx{
+    font-size: 1.3rem;
+    line-height: 8rem;
+
+}
+
+#age{
+    font-size: 1rem;
+}
+
+.radiobtn{
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+}
+
+.radiobtn p{
+    margin-top: 1.2rem;
+}
+
+#interestfield{
+    font-size: 1.1rem;
+}
+textarea{
+    margin: 1.4rem 0rem;
+    font-size: 1.1rem;
+}
+
+button{
+    width: 8rem;
+    height: 3rem;
+    margin-top: 1.4rem;
+    margin-left: 1rem;
+    padding: 0rem 1.7rem;
+    font-size: 1.2rem;
+    background-color: rgb(0, 153, 255);
+    border: 1px solid rgb(179, 175, 175);
+}
+form{
+    width: 95%;
+    margin: auto;
+}
